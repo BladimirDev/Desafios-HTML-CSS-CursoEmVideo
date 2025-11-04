@@ -125,35 +125,26 @@ main p{
     background-color: var(--cor4);
     margin-left: -20px;
     padding: 20px 20px;
+    width: 100%;
 }
 
 aside{
     background-color: var(--cor0);
-    border-radius: 25px;
-    width: 790px;
+    border-radius: 10px;
 }
 
 aside > h4{
-    background-color: var(--cor3);
+    background-color: #2fa866;
     font-family: var(--fonte-texto);
     color: white;
-    font-size: 1.5em;   
-    display: inline-block;
-    padding: 10px;
 }
 
-aside > p{
-    margin: 10px;
-    width: 95%;
-    text-align: justify;
-    margin: auto;
-}
-
-aside li{
+ol > li{
     display: block;
     font-family: var(--fonte-texto);
     margin: 10px;
 }
+
 
 
 
